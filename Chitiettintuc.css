@@ -1,0 +1,187 @@
+﻿#logo {
+    width: 120px;
+}
+
+.menu {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.dh a{
+    color:black;
+}
+
+.dh a:hover{
+    color:blue;
+}
+
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        display: inline-block;
+        align-items: center;
+        position: relative;
+        flex: 1;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+.menu-item {
+    padding-top: 15px;
+}
+
+
+#logo {
+    padding-top: 5px;
+}
+
+.menu a:hover {
+    background-color: #474646;
+}
+
+.dh{
+    margin-left:50px;
+}
+
+#loguser {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 17px;
+}
+
+
+
+#Banner {
+    max-width:100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#dieuhuong{
+    display:none;
+}
+
+#Title {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.image-container{
+    display:flex;
+    justify-content:center;
+}
+
+#Image{
+    margin-top:20px;
+    max-width:100%;
+    height:auto;
+}
+
+#Content{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 50px;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+    ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+.column-2 p {
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .menu a {
+            width: 100%;
+        }
+
+    #Banner {
+        /*transform: scale(0.7);*/
+    }
+
+    #Image{
+        transform:scale(0.8);
+    }
+
+    #Content{
+        margin: 10px 0px 10px 0px;
+        font-size:15px;
+    }
+
+    #Title {
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .footer {
+        grid-template-columns: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+        /*.footer a {
+            margin-left: 150px;
+        }*/
+
+        .footer p {
+            text-align: center;
+        }
+
+    ul {
+        text-align: center;
+        align-content: center;
+    }
+
+
+
+    /* .news-container {
+        grid-template-columns: 100%;
+    }
+
+    .project-container {
+        grid-template-columns: 100%;
+    } */
+}
+
+
